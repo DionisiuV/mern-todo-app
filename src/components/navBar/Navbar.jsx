@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { AppBar, Typography, Toolbar, Button } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
-import { Link, useNavigate, Navigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from '../../store/actions/authActions';
 
 const useStyles = makeStyles({
